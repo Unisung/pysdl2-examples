@@ -137,7 +137,7 @@ def main():
 
 	fps = FPSCounter(world, renderer=renderer)
 	
-	spriteRenderer = factory.create_sprite_renderer()
+	spriteRenderer = factory.create_sprite_render_system()
 	fpsController = FPSController()
 	
 	world.add_system(fpsController)
